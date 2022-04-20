@@ -20,7 +20,7 @@ int _printf(const char *format, ...)
 	{
 		if (format[0] == '%')
 		{
-			structype = driver(*format);
+			structype = driver(format);
 			if (structype)
 			{
 				q[0] = '%';
