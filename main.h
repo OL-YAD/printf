@@ -15,7 +15,7 @@ int printunsign(char *format, va_list);
 int integer(int number);
 int contadordigit(int number);
 int _abs(int number);
-int _printf(const char *format, ...);
+int _printf(char *format, ...);
 int print_char(va_list arg);
 int printpercent(char *format, va_list pa);
 void print_binary(unsigned int n, unsigned int* printed);
