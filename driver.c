@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * driver - selector for type of fun.
@@ -13,7 +16,7 @@ int (*driver(char *format))(char *format, va_list)
 {
 int i;
 
-structype selector[] = {
+struct selector[] = {
 {"%c", printc},
 {"%s", printstr},
 {"%d", printint},
